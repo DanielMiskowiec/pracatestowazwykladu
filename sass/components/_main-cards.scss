@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width:768px) {
   .main__cards {
     margin-top: 60px;
   }
@@ -45,9 +45,16 @@
   display: flex;
   flex-wrap:wrap;
   justify-content: space-between;
+  display: block;
 
     &__image {
-    
+    background-color: $third-background-color;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 102.34px;
+    padding-right: 102.34px;
+    border-radius: 4px;
     }
   }
 }
