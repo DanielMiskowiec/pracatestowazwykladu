@@ -1,12 +1,5 @@
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-  .main__title {
-    background-image: url(../images/bg-img-480px@2x.jpg);
-  }
-}
 
-@media screen and (min-width:320px) and (max-width:767px){
+@media screen and (min-width:320px) and (max-width: 768px) {
 .main__title {
   background-color: #2f303a;
       background-image: linear-gradient(
@@ -58,6 +51,47 @@ text-align: center;
     cursor:pointer;
   }
 }
+
+
+@media screen and (min-width: 768px) and (max-width:1200px) {
+  .main__title {
+    background-color: #2f303a;
+      background-image: linear-gradient(to bottom,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+          url(../images/bg-img-768px.jpg);
+      background-size: 768px 400px;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .main__title {
+      background-color: #2f303a;
+      background-image: linear-gradient(to bottom,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)),
+        url(../images/bg-img-1200px.jpg);
+      background-size: 1200px 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.content__text {
+font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  padding-top: 200px;
+}
+
+.content__button {
+  margin-bottom: 200px;
+}
+}
+
+
 
 
 
