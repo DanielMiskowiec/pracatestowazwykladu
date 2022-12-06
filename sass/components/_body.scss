@@ -1,0 +1,13 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+
+  color: var(--brand-color, black);
+  background: var(--second-color, white);
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

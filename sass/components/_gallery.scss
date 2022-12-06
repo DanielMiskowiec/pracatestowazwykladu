@@ -1,0 +1,38 @@
+.gallery__title {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Roboto";
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 94px;
+  line-height: 1.17;
+}
+
+.gallery__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.gallery__thumb {
+  position: relative;
+  margin: 0;
+}
+
+.gallery__label {
+  position: absolute;
+  display: flex;
+  width: 370px;
+  height: 70px;
+  top: 224px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+  color: $what-we-do-words-color;
+  background: $what-we-do-bg-color;
+}

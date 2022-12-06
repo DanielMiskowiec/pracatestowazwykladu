@@ -1,0 +1,116 @@
+.main__title {
+  background-color: #2f303a;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+         ),
+      url(../images/bg-img-480px.jpg);
+      background-size: 480px 400px;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.content {
+text-align: center;
+
+&__text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  letter-spacing: 0.06em;
+  color: $second-color;
+  padding-top: 118px;
+  padding-bottom:30px;
+}
+
+&__button {
+  background-color: $active-color;
+  cursor: pointer;
+  line-height: 1.875;
+  color: $brand-color;
+  border: none $third-background-color;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Roboto";
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 41px 10px 42px;
+  margin-bottom: 118px;
+}
+}
+
+.content__button--style {
+  color: $second-color;
+
+  &:hover {
+    cursor:pointer;
+  }
+}
+
+
+
+
+// .main__title {
+//   display: block;
+//   margin: auto;
+//   background-color: #2f303a;
+//   background-image: linear-gradient(
+//       to bottom,
+//       rgba(47, 48, 58, 0.4),
+//       rgba(47, 48, 58, 0.4)
+//     ),
+//     url(../images/background-image1.jpg);
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   max-width: 1600px;
+
+//   text-align: center;
+// }
+
+// .content {
+//   display: block;
+//   text-align: center;
+
+//   padding: 200px 0;
+
+//   &__text {
+//     color: var(--second-color, white);
+
+//     font-weight: 900;
+//     font-size: 44px;
+//   }
+
+//   &__button {
+//     background-color: $active-color;
+
+//     cursor: pointer;
+//     line-height: 1.875;
+//     color: var(--brand-color, black);
+//     border: none $third-background-color;
+//     font-weight: 700;
+//     font-size: 16px;
+//     font-family: "Roboto";
+//     text-align: center;
+//     border-radius: 4px;
+
+//     padding: 10px 41px 10px 42px;
+//     margin-top: 30px;
+//   }
+// }
+
+// .content__button--style {
+//   color: var(--second-color, white);
+
+//   font-weight: 700;
+//   font-size: 16px;
+//   border-radius: 4px;
+
+//   &:hover {
+//     cursor: pointer;
+//   }
+// }
+
+
