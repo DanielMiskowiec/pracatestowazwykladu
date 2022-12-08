@@ -243,9 +243,24 @@
           <div class="container">
             <h2 class="team__title">Nasz zespół</h2>
             <ul class="team">
-              <li>
+              <li class="team__list--item">
                 <figure class="team__figure">
-                  <img src="images/photo4.jpg" alt="Mężczyzna z brodą w okularach i w koszuli" width="270" height="260" />
+                  
+                  <picture>
+                    <source media="(min-width:1200px)" srcset="
+                                      ./images/pracownik1-1200px.jpg 1x,
+                                      ./images/pracownik1-1200px@2x.jpg 2x
+                                    " />
+                    <source media="(min-width:768px)" srcset="
+                                      ./images/pracownik1-768px.jpg 1x,
+                                      ./images/pracownik1-768px@2x.jpg 2x
+                                    " />
+                    <source media="(min-width:320px)" srcset="
+                                      ./images/pracownik1-480px.jpg 1x,
+                                      ./images/pracownik1-480px@2x.jpg 2x
+                                    " />
+                    <img src="./images/pracownik1-1200px.jpg" alt="Mężczyzna z brodą w okularach i w koszuli" />
+                  </picture>
                   <figcaption class="team__figcaption">
                     <p class="team__name">John Doe</p>
                     <p class="team__subtitle">Fronted Developer</p>
@@ -253,38 +268,53 @@
                   <ul class=" social__list">
                     <li class="social__item">
                       <div class="social__content">
-                        <svg class="social__icon--team">
-                          <use width="20" height="20" href="./images/icons.svg#icon-instagram"></use>
+                        <svg class="social__icon--team" width="20" height="20">
+                          <use href="./images/icons.svg#icon-instagram"></use>
                         </svg>
                       </div>
                     </li>
                     <li class="social__item">
                       <div class="social__content">
-                        <svg class="social__icon--team">
-                          <use width="20" height="20" href="./images/icons.svg#icon-twitter-1"></use>
+                        <svg class="social__icon--team" width="20" height="20">
+                          <use href="./images/icons.svg#icon-twitter-1"></use>
                         </svg>
                       </div>
                     </li>
                     <li class="social__item">
                       <div class="social__content">
-                        <svg class="social__icon--team">
-                          <use width="20" height="20" href="./images/icons.svg#icon-facebook-1"></use>
+                        <svg class="social__icon--team" width="20" height="20">
+                          <use  href="./images/icons.svg#icon-facebook-1"></use>
                         </svg>
                       </div>
                     </li>
                     <li class="social__item">
                       <div class="social__content">
-                        <svg class="social__icon--team">
-                          <use width="20" height="20" href="./images/icons.svg#icon-linkedin-1"></use>
+                        <svg class="social__icon--team" width="20" height="20">
+                          <use href="./images/icons.svg#icon-linkedin-1"></use>
                         </svg>
                       </div>
                     </li>
                   </ul>
                 </figure>
               </li>
-              <li>
+              <li class="team__list--item">
                 <figure class="team__figure">
-                  <img src="images/photo5.jpg" alt="Blond kobieta w okularach" width="270" height="260" />
+                  <picture>
+                    <source media="(min-width:1200px)" srcset="
+                                                        ./images/pracownik2-1200px.jpg 1x,
+                                                        ./images/pracownik2-1200px@2x.jpg 2
+                                                      " />
+                    <source media="(min-width:768px)" srcset="
+                                                        ./images/pracownik2-768px.jpg 1x,
+                                                        ./images/pracownik2-768px@2x.jpg 2x
+                                                      " />
+                    <source media="(min-width:320px)" srcset="
+                                                        ./images/pracownik2-480px.jpg 1x,
+                                                        ./images/pracownik2-480px@2x.jpg 2x
+                                                      " />
+                    <img src="./images/pracownik2-1200px.jpg" alt="Blond kobieta w okularach" />
+                  </picture>
+                  
                   <figcaption class="team__figcaption">
                     <p class="team__name">John Doe</p>
                     <p class="team__subtitle">Product Designer</p>
@@ -321,9 +351,24 @@
                   </ul>
                 </figure>
               </li>
-              <li>
+              <li class="team__list--item">
                 <figure class="team__figure">
-                  <img src="images/photo6.jpg" alt="Młody mężczyzna z brodą i w koszuli" width="270" height="260" />
+                  <picture>
+                    <source media="(min-width:1200px)" srcset="
+                                                                          ./images/pracownik3-1200px.jpg 1x,
+                                                                          ./images/pracownik3-1200px@2x.jpg 2
+                                                                        " />
+                    <source media="(min-width:768px)" srcset="
+                                                                          ./images/pracownik3-768px.jpg 1x,
+                                                                          ./images/pracownik3-768px@2x.jpg 2x
+                                                                        " />
+                    <source media="(min-width:320px)" srcset="
+                                                                          ./images/pracownik3-480px.jpg 1x,
+                                                                          ./images/pracownik3-480px@2x.jpg 2x
+                                                                        " />
+                    <img src="./images/pracownik3-1200px.jpg" alt="Młody mężczyzna z brodą i w koszuli" />
+                  </picture>
+                  
                   <figcaption class="team__figcaption">
                     <p class="team__name">John Doe</p>
                     <p class="team__subtitle">Marketing</p>
@@ -360,9 +405,24 @@
                   </ul>
                 </figure>
               </li>
-              <li>
+              <li class="team__list--item">
                 <figure class="team__figure">
-                  <img src="images/photo7.jpg" alt="Młody mężczyzna z brodą, w okularach i koszulce" width="270" height="260" />
+                  <picture>
+                    <source media="(min-width:1200px)" srcset="
+                                                                                            ./images/pracownik4-1200px.jpg 1x,
+                                                                                            ./images/pracownik4-1200px@2x.jpg 2
+                                                                                          " />
+                    <source media="(min-width:768px)" srcset="
+                                                                                            ./images/pracownik4-768px.jpg 1x,
+                                                                                            ./images/pracownik4-768px@2x.jpg 2x
+                                                                                          " />
+                    <source media="(min-width:320px)" srcset="
+                                                                                            ./images/pracownik4-480px.jpg 1x,
+                                                                                            ./images/pracownik4-480px@2x.jpg 2x
+                                                                                          " />
+                    <img src="./images/pracownik4-1200px.jpg" alt="Młody mężczyzna z brodą, w okularach i koszulce" />
+                  </picture>
+                  
                   <figcaption class="team__figcaption">
                     <p class="team__name">John Doe</p>
                     <p class="team__subtitle">UI Designer</p>
