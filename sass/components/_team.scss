@@ -96,6 +96,33 @@ padding-bottom: 30px;
  background-color: rgba(255, 255, 255, 0.1);
 }
 
+@media screen and (min-width:1200px) {
+    .social__content:hover {
+    background-color: $blue-color;
+    cursor: pointer;
+  
+     & svg {
+     fill: $second-color;
+      }
+    }
+  
+    .social__icon--team {
+    fill: $social-links-color;
+    height: 20px;
+    width: 20px;
+  
+    &:hover {
+     fill: $second-color;
+     }
+    }
+  
+    .social__icon {
+     fill: $second-color;
+     height: 20px;
+     width: 20px;
+    }
+}
+
 
 
 
