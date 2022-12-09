@@ -68,12 +68,16 @@ padding-bottom: 30px;
 }
 }
 
+.social__item {
+  padding-bottom: 24px;
+}
+
 .social__list {
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 24px;
+  
   gap: 10px;
 }
 
