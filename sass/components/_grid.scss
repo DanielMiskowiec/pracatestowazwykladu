@@ -1,6 +1,15 @@
 .grid {
   margin-top: 40px;
   margin-bottom: 60px;
+
+  @media screen and (min-width:768px) {
+    margin-top: 30px;
+  }
+
+    @media screen and (min-width:1200px) {
+      margin-top: 50px;
+      margin-bottom: 94px;
+    }
 }
 
 .grid__list {
@@ -10,15 +19,36 @@
   padding-left: 0;
   justify-content: space-around;
   row-gap: 30px;
+
+  @media screen and (min-width:768px) {
+    justify-content: left;
+    gap: 30px;
+  }
+    @media screen and (min-width:1200px) {
+justify-content: space-around;
+gap: 0;
+row-gap: 30px;
+  }
 }
 
 .grid__item {
   background: $second-color;
 
+  @media screen and (min-width:768px) {
+   max-width: 354px;
+   max-height: 440px;
+  }
+    @media screen and (min-width:1200px) {
+      max-width: 370px;
+        max-height: 404px;
+    }
+  
   &:hover .text__box {
     transform: translateX(0);
     background-color: var(--first-color);
   }
+
+  
 }
 
 .grid__overlay {
